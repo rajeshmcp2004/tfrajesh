@@ -1,4 +1,4 @@
-# testing is version 1.0.1
+# testing is version 2.0.0 #
 resource "azurerm_resource_group" "rg" {
   count    = length(var.rg_names)
  
